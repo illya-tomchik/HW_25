@@ -1,0 +1,27 @@
+.div-position {
+    width: 200px;
+    height: 200px;
+    display: block;
+}
+
+.div-position:nth-child(1) {
+    background-color: darksalmon;
+}
+
+.div-position:nth-child(2) {
+    background-color: darkcyan;
+    position: relative;
+    z-index: 2;
+    top: -70px;
+    left: 120px;
+
+
+}
+
+.div-position:nth-child(3) {
+    background-color: forestgreen;
+    position: relative;
+    z-index: 1;
+    top: -140px;
+    left: 240px;
+}
